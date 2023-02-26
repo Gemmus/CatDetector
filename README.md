@@ -1,6 +1,8 @@
-# Dog Detector
-A project that alerts me when there's a dog outside so I can go look at it.
+# Cat Detector
 
-
-## Tech Specs
-This script uses the YOLOv3 object detection model trained on the COCO dataset.
+Project work for deep learning. The purpose of the project is the creation of a cat detector using the following hardware elements:
+<br /> - Raspberry Pi 4 model B
+<br /> - Raspberry Pi Camera - 8 Megapixel (V2)
+<br />
+<br />For the object detection, the following pretrained model was used:
+<br />https://github.com/AlexeyAB/darknet --> yolov4-tiny.cfg, yolov4-tiny.weights
