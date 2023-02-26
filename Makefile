@@ -1,4 +1,4 @@
-IMAGE_NAME=rydercalmdown/dog-detector
+IMAGE_NAME=gemmus/cat-detector
 IMAGE_VERSION=latest
 RASPBERRY_PI_IP=10.0.0.86
 RASPBERRY_PI_USERNAME=pi
@@ -37,8 +37,8 @@ copy:
 .PHONY: focus
 focus:
 	@echo "Taking camera photo for focus"
-	@ssh $(RASPBERRY_PI_USERNAME)@$(RASPBERRY_PI_IP) raspistill -o /home/pi/dog_detector/focus.jpg
-	@scp $(RASPBERRY_PI_USERNAME)@$(RASPBERRY_PI_IP):/home/pi/dog_detector/focus.jpg ./focus.jpg
+	@ssh $(RASPBERRY_PI_USERNAME)@$(RASPBERRY_PI_IP) raspistill -o /home/pi/CatDetector/focus.jpg
+	@scp $(RASPBERRY_PI_USERNAME)@$(RASPBERRY_PI_IP):/home/pi/CatDetector/focus.jpg ./focus.jpg
 
 .PHONY: console
 console:
