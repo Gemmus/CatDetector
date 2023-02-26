@@ -30,7 +30,6 @@ def main():
     c = Classifier()
     try:
         allowed_labels = [
-            'cup',
             'cat',
         ]
         c.set_allowed_labels(allowed_labels)
