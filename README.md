@@ -4,5 +4,6 @@ Project work for deep learning. The purpose of the project is the creation of a 
 <br /> - Raspberry Pi 4 model B
 <br /> - Raspberry Pi Camera - 8 Megapixel (V2)
 <br />
-<br />For the object detection, the following pretrained model was used:
-<br />https://github.com/AlexeyAB/darknet --> yolov4-tiny.cfg, yolov4-tiny.weights
+<br />For the object detection, the following pretrained model (tiny YOLO4, COCO) was used:
+<br />https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov4-tiny.cfg
+<br />https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights
