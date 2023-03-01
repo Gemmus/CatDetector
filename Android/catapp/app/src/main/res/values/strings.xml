@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CatApp</string>
+    <string name="tell_me">Analyze</string>
+</resources>
