@@ -8,3 +8,6 @@ Project work for deep learning. The purpose of the project is the creation of a 
 <br />https://raw.githubusercontent.com/AlexeyAB/darknet/master/cfg/yolov4-tiny.cfg
 <br />https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights
 <br />(Place these src/models_yolo4tiny/)
+<br />
+<br />Github link to the repository of the pretrained model:
+<br />https://github.com/AlexeyAB/darknet
