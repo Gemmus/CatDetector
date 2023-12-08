@@ -11,3 +11,6 @@ Project work for deep learning. The purpose of the project is the creation of a 
 <br />
 <br />Github link to the repository of the pretrained model:
 <br />https://github.com/AlexeyAB/darknet
+
+![tapio_detected](https://github.com/Gemmus/CatDetector/assets/112064697/4608e734-fb8e-499a-aa75-717cbc76d9e6)
+Figure 1: Cat detection
